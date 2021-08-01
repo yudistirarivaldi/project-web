@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ini adalah navbar */
+#nav{
+        position: sticky;
+        top: 0;
+        z-index: 1001;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #1ea5ec, #2c92fb);
+}
+
+.navbar-brand span{
+    font-weight: bolder;
+    color: #fff;    
+}
+
+.navbar-nav ul li{
+    padding: 0 10px;
+}
+
+.navbar-nav ul li a{
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
